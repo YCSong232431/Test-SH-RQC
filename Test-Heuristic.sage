@@ -77,4 +77,4 @@ e = random_small_vector_genenration(m,r,r)
 L = block_diagonal_matrix(Moore_matrix(e,r+1),Moore_matrix(g,k+r))
 TestRank = k + 2*r
 
-test(100)
+test(100000)
